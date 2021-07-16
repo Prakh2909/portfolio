@@ -33,11 +33,11 @@ body {
 
 .hidden {
     display: none;
-    position: absolute;
+    width: 100%;
 }
 
 .project:hover .hidden {
-    display: block;
+    display: inline;
 }
 
 .colour1 {
@@ -110,4 +110,14 @@ body {
 .navbar a:active {
     background-color: cadetblue;
     color: aliceblue;
+}
+
+.input {
+    padding-bottom: 10px;
+}
+
+#footer{
+    margin-top: 20px;
+    
+    height:100px
 }
